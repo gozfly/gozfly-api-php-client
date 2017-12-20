@@ -1,0 +1,50 @@
+{
+    "name": "gozfly/gozfly-api-php-client",
+    "description": "Gozfly API PHP SDK with OAuth 2.0 & CSRF support. Can be used for social sign in or sharing on Gozfly. Examples. Documentation.",
+    "type": "library",
+    "keywords": [
+        "gozfly", "gozfly-client", "gozfly-api", "gozfly-signin",
+        "gozfly-sdk", "gozfly-login", "linked in", "gozfly.com", "php-gozfly",
+        "oauth", "oauth2", "oauth2-client", "oauth2-authentication", "authentication",
+        "social", "rest", "api", "client", "social network", "auth", "authorization",
+        "wrapper", "integration", "platform"
+    ],
+    "homepage": "https://www.github.com/gozfly/gozfly-api-php-client",
+    "require": {
+        "php": ">=5.6",
+        "ext-curl": "*",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Nuñez",
+            "email": "je.nunez@gozfly.com",
+            "homepage": "https://www.gozfly.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "docs": "https://www.gozfly.com/support",
+        "source": "https://www.github.com/gozfly/gozfly-api-php-client",
+        "issues": "https://www.github.com/gozfly/gozfly-api-php-client/issues",
+        "wiki": "https://www.github.com/gozfly/gozfly-api-php-client/wiki"
+    },
+    "autoload": {
+        "psr-4": {"Gozfly\\": "src/"}
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "~2.0",
+        "phpunit/phpunit": "~4.0"
+    },
+    "archive": {
+        "exclude": [
+            "examples",
+            "tests",
+            ".env",
+            ".travis.yml",
+            "phpunit.xml"
+        ]
+    },
+    "autoload-dev": {}
+}
